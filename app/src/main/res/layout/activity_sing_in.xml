@@ -5,51 +5,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SingInActivity"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+
+
+    android:background="@drawable/gradient"
+    >
 
     <EditText
         android:id="@+id/txtUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:drawablePadding="5dp"
         android:ems="10"
+        android:fontFamily="monospace"
         android:hint="Kullanıcı Adı"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/txtPassword"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:backgroundTint="@android:color/white"
+        />
 
     <EditText
         android:id="@+id/txtPassword"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:drawablePadding="5dp"
         android:ems="10"
-        android:hint="Şifre"
+        android:fontFamily="monospace"
+        android:hint="Parola"
         android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/txtUserName" />
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtUserName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtUserName"
+        app:layout_constraintTop_toBottomOf="@+id/txtUserName"
+        android:backgroundTint="@android:color/white"
+        />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="84dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="273dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_rounded"
         android:onClick="signIn"
         android:text="GİRİŞ"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+
+        />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="23dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="273dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_rounded_green"
         android:onClick="signUp"
         android:text="ÜYE OL"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/location_icon" />
 </android.support.constraint.ConstraintLayout>

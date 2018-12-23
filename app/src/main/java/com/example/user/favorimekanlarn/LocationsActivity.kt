@@ -39,6 +39,7 @@ class LocationsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTitle("Kayıtlı Mekanlar")
         setContentView(R.layout.activity_locations)
 
         getParseData()

@@ -1,1 +1,1 @@
-# FavoriMekanlar
+# Favori Mekanlar
