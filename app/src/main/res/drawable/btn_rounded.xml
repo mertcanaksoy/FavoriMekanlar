@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <shape android:shape="rectangle"
 xmlns:android="http://schemas.android.com/apk/res/android">
 <solid android:color="@color/colorPrimary"/>
 <corners android:radius="80dp"/>
 </shape>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="@color/colorPrimary"/>
+<corners android:radius="80dp"/>
+</shape>
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e

@@ -12,7 +12,11 @@
     <ImageView
         android:id="@+id/imageViewDetails"
         android:layout_width="385dp"
+<<<<<<< HEAD
+        android:layout_height="182dp"
+=======
         android:layout_height="109dp"
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="1dp"
@@ -20,12 +24,29 @@
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <TextView
+<<<<<<< HEAD
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="Mekan Adı"
+        android:textSize="18sp" />
+
+    <TextView
+=======
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
         android:id="@+id/textViewType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+<<<<<<< HEAD
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+=======
         android:layout_marginStart="23dp"
         android:layout_marginTop="141dp"
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
         android:layout_toEndOf="@+id/textView2"
         android:text="Mekan Türü"
         android:textSize="18sp" />
@@ -33,11 +54,19 @@
     <TextView
         android:id="@+id/textViewDescription"
         android:layout_width="365dp"
+<<<<<<< HEAD
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+=======
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
         android:layout_marginStart="2dp"
         android:layout_marginTop="13dp"
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
         android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
         android:text="Açıklama"
         android:textSize="14sp"
@@ -62,8 +91,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageViewDetails"
         android:layout_alignParentStart="true"
+<<<<<<< HEAD
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+=======
         android:layout_marginStart="12dp"
         android:layout_marginTop="19dp"
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
         android:text="Mekan Türü:"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -74,7 +108,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
+<<<<<<< HEAD
+        android:layout_marginStart="10dp"
+=======
         android:layout_marginStart="13dp"
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
         android:layout_marginTop="8dp"
         android:text="Açıklama:"
         android:textSize="18sp"
@@ -86,9 +124,18 @@
         android:layout_height="1dp"
         android:layout_below="@+id/textViewDescription"
         android:layout_alignParentStart="true"
+<<<<<<< HEAD
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        tools:background="@android:color/background_dark" />
+
+</LinearLayout>
+=======
         android:layout_marginStart="0dp"
         android:layout_marginTop="18dp"
         android:background="?android:attr/listDivider"
         tools:background="@android:color/background_dark" />
 
 </RelativeLayout>
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e

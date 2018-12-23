@@ -20,10 +20,10 @@
         android:label="Favori Mekanlarım"
         android:roundIcon="@mipmap/ic_favori"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.Light">
         <activity android:name=".SingInActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

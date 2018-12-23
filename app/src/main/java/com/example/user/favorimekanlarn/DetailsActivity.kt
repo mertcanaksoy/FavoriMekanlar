@@ -55,10 +55,20 @@ class DetailsActivity : AppCompatActivity(), OnMapReadyCallback
                         try
                         {
                             val name = parseObject.get("name") as String
+<<<<<<< HEAD
+                            val type = parseObject.get("type") as String
+                            val description = parseObject.get("description") as String
+
+                            setTitle(name)
+                            textViewName.text=name
+                            textViewType.text= type
+                            textViewDescription.text= description
+=======
 
                             setTitle(name)
                             textViewType.text= parseObject.get("type") as String
                             textViewDescription.text= parseObject.get("description") as String
+>>>>>>> 8f2c307c08921d8234ff0c8b63a233c1ecb33b2e
                             val latitude = parseObject.get("latitude") as String
                             val longitude = parseObject.get("longitude") as String
                             val image_exists = parseObject.get("image_exists") as Boolean
